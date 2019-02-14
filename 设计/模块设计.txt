@@ -1,0 +1,13 @@
+1，模块app：
+   xj_main(主控模块，包括页面跳转，信息展示，指标管理等)
+   xj_schdule(排班模块，包括排班算法)
+   sj_check(权限校验模块，包括登陆权限的校验)
+   
+2，页面：
+   xj_front 登陆页面
+   xj_exit  签退页面
+   xj_nav   主导航页
+   xj_ctl_log 操作日志展现页面
+   xj_index   指标管理页面
+   xj_mainshow  巡检管理页面
+   xj_sch       排班页面

@@ -1,0 +1,46 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>巡检自动化管理系统</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<!--
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+-->
+ <link href="{% static 'bootstrap/css/signin.css' %}" rel="stylesheet">
+  </head>
+
+<style>
+  div{text-align:center}
+</style>
+  <body>
+     <div class="container">
+               <form class="form-signin">
+                 <h3 class="container-fluid">巡检自动化管理系统</h3>
+                   <h5 class="container-fluid">选择你需要进入的子系统</h5>
+
+                   <button class="btn btn-lg btn-block btn-default">
+                         <a href="http://127.0.0.1:8888/paiban">排班系统</a>
+                   </button>
+                   <button class="btn btn-lg btn-block btn-default">
+                         <a href="http://127.0.0.1:8888/index">指标管理系统</a>
+                   </button>
+                   <button class="btn btn-lg btn-block btn-default">
+                         <a href="http://127.0.0.1:8888/xunjian">巡检管理系统</a>
+                   </button>
+                   <button class="btn btn-lg btn-block btn-default">
+                         <a href="http://127.0.0.1:8888/shenji">操作日志审计系统</a>
+                   </button>
+     </div>
+
